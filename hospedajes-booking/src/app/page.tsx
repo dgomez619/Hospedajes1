@@ -101,12 +101,12 @@ export default function Home() {
   <section className="py-8 w-full">
     <DropdownCities />
     <div className="container mx-auto flex flex-col items-center">
-      <h2 className="text-2xl font-bold mb-4 text-center">Disponibles</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+      {/* <h2 className="text-2xl font-bold mb-4 text-center">Disponibles</h2> */}
+      {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
         {demoProperties.map((property) => (
           <PropertyCard key={property.id} property={property} />
         ))}
-      </div>
+      </div> */}
     </div>
   </section>
 </main>
