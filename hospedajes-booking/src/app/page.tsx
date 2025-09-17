@@ -93,6 +93,15 @@ export default function Home() {
     price: 'contactar para precio*',
     linkUrl: "/property/La-Esmeralda",
   },
+  // Example for Porlamar, Margarita
+  {
+    id: 6,
+    title: "Porlamar, Margarita",
+    description: "Apartamento frente al mar.",
+    imageUrl: "https://res.cloudinary.com/dwrinmdz0/image/upload/v1758133344/porlamar-margarita/sala-star_ujpb8l.png",
+    price: '$50',
+    linkUrl: "/property/porlamar-margarita",
+  },
 
 ];
 
