@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className='relative h-[60vh] bg-cover bg-center'>
         <Navbar />
-  <img src="https://images.unsplash.com/photo-1542291026-79eddc7569ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDF8MHwxfHNlYXJjaHwxfHxuZW9uJTIwd2F2ZXxlbnwwfHx8fDE2NzcxMzIzNTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Background" class="absolute inset-0 w-full h-full object-cover"/>
+  <img src="https://images.unsplash.com/photo-1542291026-79eddc7569ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTIyMDF8MHwxfHNlYXJjaHwxfHxuZW9uJTIwd2F2ZXxlbnwwfHx8fDE2NzcxMzIzNTZ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Background" className="absolute inset-0 w-full h-full object-cover"/>
 
   <div className="relative bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg border border-opacity-20 border-white rounded-xl p-8 shadow-lg text-white max-w-md mx-auto">
     <h1 className="text-4xl font-bold mb-4">Welcome to Our Site</h1>
