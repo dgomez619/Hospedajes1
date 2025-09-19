@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import PropertyCard from "../components/PropertyCard";
+import PropertyCard from "./PropertyCard";
 
 const cities = [
   { label: "Valencia, Carabobo", value: "Valencia, Carabobo" },
